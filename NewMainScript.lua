@@ -10,7 +10,7 @@ if require then
 	local suc = pcall(function() return require(lplr.PlayerScripts.PlayerModule).controls end)
 
 	if not suc then
-		shared.badexecs = true
+		shared.badexecs = false
 		return loadstring(game:HttpGet("https://raw.githubusercontent.com/tothbendi843-droid/VapeV4ForRobloxe/refs/heads/main/NewMainScript.lua", true))()
 	end
 end
