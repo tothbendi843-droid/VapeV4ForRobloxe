@@ -1,12 +1,7 @@
-if identifyexecutor then
-	if string.find(string.lower(({identifyexecutor()})[1]), 'jjsploit') or string.find(string.lower(({identifyexecutor()})[1]), 'bytebreaker') then
-		getgenv().identifyexecutor = function()
-			return 'Xeno'
-		end
-	end
+-- vapeV4 unblocked for bad executors
 	if table.find({'Xeno', '5.0'}, ({identifyexecutor()})[1]) or not (debug.getupvalue or debug.getupvalues or debug.getproto or debug.getconstants or hookfunction or hookmetamethod or getconnections or require) then
 		shared.badexecs = false
-		return loadstring(game:HttpGet("https://raw.githubusercontent.com/skidvape/KoolForRoblox/main/NewMainScript.lua", true))()
+		return loadstring(game:HttpGet("https://raw.githubusercontent.com/tothbendi843-droid/VapeV4ForRobloxe/refs/heads/main/NewMainScript.lua", true))()
 	end
 end
 
@@ -18,7 +13,7 @@ if require then
 
 	if not suc then
 		shared.badexecs = true
-		return loadstring(game:HttpGet("https://raw.githubusercontent.com/skidvape/KoolForRoblox/main/NewMainScript.lua", true))()
+		return loadstring(game:HttpGet("https://raw.githubusercontent.com/tothbendi843-droid/VapeV4ForRobloxe/refs/heads/main/NewMainScript.lua", true))()
 	end
 end
 
