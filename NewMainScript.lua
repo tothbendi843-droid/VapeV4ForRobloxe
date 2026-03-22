@@ -5,7 +5,7 @@ if identifyexecutor then
 		end
 	end
 	if table.find({'Xeno', '5.0'}, ({identifyexecutor()})[1]) or not (debug.getupvalue or debug.getupvalues or debug.getproto or debug.getconstants or hookfunction or hookmetamethod or getconnections or require) then
-		shared.badexecs = true
+		shared.badexecs = false
 		return loadstring(game:HttpGet("https://raw.githubusercontent.com/skidvape/KoolForRoblox/main/NewMainScript.lua", true))()
 	end
 end
