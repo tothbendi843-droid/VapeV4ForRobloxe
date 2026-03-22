@@ -1,6 +1,4 @@
 -- vapeV4 unblocked for bad executors
-	if table.find({'Xeno', '5.0'}, ({identifyexecutor()})[1]) or not (debug.getupvalue or debug.getupvalues or debug.getproto or debug.getconstants or hookfunction or hookmetamethod or getconnections or require) then
-		shared.badexecs = false
 		return loadstring(game:HttpGet("https://raw.githubusercontent.com/tothbendi843-droid/VapeV4ForRobloxe/refs/heads/main/NewMainScript.lua", true))()
 	end
 end
